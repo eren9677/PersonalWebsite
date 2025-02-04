@@ -1,6 +1,7 @@
 import obesity from '../assets/images/projects/obesity.png';
 import mushroom from '../assets/images/projects/Mushroom.png';
 import ecom from '../assets/images/projects/e-commerce.png';
+import guessflags from '../assets/images/projects/flag.png';
 const project = [
   {
     name: 'Obesity Analysis via Synthetic Data Augmentation & Mobile Integration ',
@@ -69,24 +70,22 @@ Mushroom Dataset. Integrated batch normalization and ReLU activations.
     },
     {
       name: 'Guess Flags',
-      photo: mushroom,
-      category: 'Python',
+      photo: guessflags,
+      category: 'Swift',
       text: `
-      Implemented a 3-layer MLP using PyTorch to classify mushrooms as edible or poisonous with the UCI
-Mushroom Dataset. Integrated batch normalization and ReLU activations.
-      
+      Created a mini Flag Guessing IOS game. It was created when i was learning about XCode asset catalog, alerts, views and timers.
       `,
       tech: ['Swift'],
-      property: ['Used Pytorch to build MLP model',
-        "Applied randomized batch normalization to prevent covariate shift while training in batches.",
-        "Adam optimizer is used for scalability.",
-        "ReLU is used between the hidden layers and Sigmoid is used for final layer.",
+      property: ['Users can have a score below the scene.',
+        "A countdown is started when the game starts.",
+        "Users are getting notified when they click the wrong flag",
+        "A catalog of 45+ countires is available",
       ],
-      date: '2024 Dec',
-      link: 'https://github.com/eren9677/CEN-451/tree/main',
-      learn: [ 'Learned to create dataloaders for MLP model.', 
-        'Learned to select the optimal batch size and neuron numbers', 
-        'Tried multiple times to find the best hyperparameter. this includes using different activation functions to batch size, network depth, normalization techniques. regularization techniques']
+      date: '2024 Aug',
+      link: 'https://github.com/eren9677/Learning-swift/tree/main/GuessFlags',
+      learn: [ 'Learned to use Xcode Asset catalog', 
+        'learned to use ZStack with custom views', 
+        'Learned to use timer functionality in swift.']
     },
 
   ]
