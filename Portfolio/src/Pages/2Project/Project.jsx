@@ -5,7 +5,7 @@ function Project() {
   return (
     <article className="project active" data-page="project">
   <header>
-    <h2 className="h2 article-title">Projeler</h2>
+    <h2 className="h2 article-title">Projects</h2>
   </header>
     <Projects />
 </article>

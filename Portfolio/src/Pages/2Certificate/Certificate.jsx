@@ -7,7 +7,7 @@ function Certificates() {
   return (
     <article className="certificate active" data-page="certificate">
       <header>
-        <h2 className="h2 article-title">Sertifikalar</h2>
+        <h2 className="h2 article-title">Certifications</h2>
       </header>
       <section className="certificates">
         <ul className="certificate-list">

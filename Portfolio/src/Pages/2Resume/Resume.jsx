@@ -32,7 +32,7 @@ function Resume() {
   return (
     <article className="resume active" data-page="resume">
       <header>
-        <h2 className="h2 article-title">Kariyer</h2>
+        <h2 className="h2 article-title">Career</h2>
       </header>
       <section className="timeline">
         <div className="title-wrapper" onClick={toggleExperience}>
