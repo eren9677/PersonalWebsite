@@ -1,10 +1,13 @@
 import './App.css'
-import Navbar from "./components/Navbar.jsx"
-
+import Navbar from "./components/Navbar/Navbar.jsx"
+import React, { useState } from "react"
 function App() {
+  const [activeComponent, setActiveComponent] = useState("about");
   return (
     <>
-    <Navbar />
+    <Navbar activeComponent={activeComponent}
+    setActiveComponent={setActiveComponent}
+    />
     <h1> Heloooo</h1>
     </>
   )
