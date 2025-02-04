@@ -1,20 +1,18 @@
 
 const skillsData = [
   'Swift',
-  'C',
-  'C++',
-  'C#',
   'HTML',
-  'CSS',
   'Bootstrap',
   'JavaScript',
+  'Java',
   'Git',
   'MySql',
   'Python',
-  'docker',
+  'Docker',
   'Php',
   'PostgreSQL',
-  'Pytorch'
+  'Pytorch',
+  'Coreml'
 ]
 
 export { skillsData };

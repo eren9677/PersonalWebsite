@@ -75,7 +75,9 @@ import wordpress from '../assets/skills/wordpress.svg';
 import netframework from '../assets/skills/netframework.png';
 import shell from '../assets/skills/shell.png';
 import game from '../assets/skills/game.png';
-import pytorch from '../assets/skills/pytorch-icon.svg'
+import pytorchh from '../assets/skills/pytorch-icon.svg'
+import coreml from '../assets/skills/coreml.png'
+
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
@@ -234,7 +236,9 @@ export const skillsImage = (skill) => {
       case 'wordpress':
         return wordpress;
       case 'pytorch':
-        return pytorch;
+        return pytorchh;
+      case 'coreml':
+        return coreml;
       default:
         break;
     }

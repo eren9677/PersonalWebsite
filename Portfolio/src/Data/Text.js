@@ -1,13 +1,13 @@
 const text = [
     {
         paragraph: 
-        "Merhaba! Ben Eren."
+        "Hi! I'm Eren, a passionate Computer Engineering student at Maltepe University with a strong focus on machine learning and software development. As a 4th-year student, I have extensive experience in ML, data science, and mobile application development."
     },
     {
-        paragraph: "Yazılıma C# temellerini öğrendikten sonra .NET Framework, katmanlı mimari, EF6 ve tasarım desenleri ile projeler geliştirerek bilgi sahibi oldum.Son iki senedir 42İstanbul'da C ve C++ dillerinde eğitim alarak kendimi geliştirdim."
+        paragraph: "I've developed various applications using Python, Java, Swift, and other programming languages. For instance, I created a mobile application for obesity analysis using SwiftUI and Core ML, and developed a mushroom edibility prediction classification model with PyTorch."
     },
     {
-        paragraph: "En son tamamladığım full-stack web projesinde yeni teknolojiler ve farklı deneyimler kazandım. Flutter ve Firebase ile mobil uygulama geliştirme konusunda da başlangıç seviye eğitimler aldım ve başlangıç seviye projeler geliştirdim."
+        paragraph: "Academically, I have a strong foundation in machine learning, artificial neural networks, data structures, and statistics. I continuously expand my knowledge through certifications like IBM Data Science Specialization and Kaggle Intermediate Machine Learning."
     },
 
 ]

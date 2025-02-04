@@ -15,16 +15,6 @@ const contact = [
       value: 'Cekmekoy, Istanbul',
       icon: <MdLocationOn size={25}/>
     },
-    {
-      title: 'Ehliyet',
-      value: 'B1',
-      icon: <FaCarAlt size={25}/>
-    },
-    {
-      title: 'Askerlik',
-      value: 'Muaf',
-      icon: <GiPistolGun size={25}/>
-    }
   ];
 
   export default contact;

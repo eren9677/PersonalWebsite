@@ -1,18 +1,18 @@
 const service = [
     {
-        name: 'Web Programlama',
-        description: "Full-Stack Web Developer olarak PHP Laravel öğrenmekte ve projeler geliştirmekteyim.",
-        icon: ['Html', 'Css', 'Bootstrap', 'JavaScript', 'PHP'],
+        name: 'Web Development',
+        description: "I've developed a complete e-commerce site with PHP and XAMPP including it's admin panel. Recently, I am learning to improve my React knowledge through examples and rebuilding projects. ",
+        icon: ['Html', 'Bootstrap', 'JavaScript', 'PHP',"react"],
     },
     {
-        name: 'Flutter',
-        description: "UI/UX tasarımları geliştirip Firebase veritabanı ile projeler geliştirmekteyim.",
-        icon: ['Flutter', 'Firebase'],
+        name: 'Mobile Application Development',
+        description: "I designed UI/UX and created Basic IOS Applications with SwiftUI. Recently, I've developed an Obesity Checker based on individual's activites with CoreML integration. Built a mini Flag Guessing game for fun",
+        icon: ['Swift', 'coreml'],
     },
     {
-        name: 'Masaüstü Programlama',
-        description: "C# .Net Framework ile eğitimime devam etmekteyim. Bu eğitimde katmanlı mimari, EF6 ve tasarım desenleri ve birçok ileri düzey konular hakkında proje örnekleri yaparak deneyim kazanmaktayım.",
-        icon: ['C#', '.net framework'],
+        name: 'Data Science & ML',
+        description: "I continuously learn about ML and try to improve myself by building various projects. Recently, I am conducting a research on Synthetic Data Generation and It's effects on ANNs as a part of my graduation project. Lately, I've built a simple MLP using Pytorch to predict Mushroom edibilty.",
+        icon: ['Python', 'pytorch'],
     }
 ]
 

@@ -9,36 +9,29 @@ const socialMedia = [
     id: 1,
     name: 'logo-github',
     type: 'github',
-    link: 'https://github.com/erenakbas57',
+    link: 'https://github.com/eren9677',
     icon: Github
   },
   {
     id: 2,
     name: 'logo-medium',
     type: 'medium',
-    link: 'https://medium.com/@erenakbas',
+    link: 'https://medium.com/@eren9677',
     icon: Medium
   },
   {
     id: 3,
     name: 'logo-linkedin',
     type: 'linkedin',
-    link: 'https://linkedin.com/in/erenakbas',
+    link: 'https://linkedin.com/in/eren9677',
     icon: LinkedIn
   },
   {
     id: 5,
     name: 'logo-mail',
     type: 'email',
-    link: 'erenakbas057@gmail.com',
+    link: 'eren9677@gmail.com',
     icon: Gmail
-  },
-  {
-    id: 6,
-    name: 'logo-instagram',
-    type: 'instagram',
-    link: 'https://instagram.com/erenakbas057',
-    icon: Instagram
   }
 ];
 
