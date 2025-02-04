@@ -4,8 +4,8 @@ import { FaCalendar, FaCarAlt } from "react-icons/fa";
 
 const contact = [
     {
-      title: 'Brth Date',
-      value: '2 Haziran 2002',
+      title: 'Bırth Date',
+      value: '1 June 2002',
       dateTime: '2002-06-01',
       icon: <FaCalendar  size={25}/>
     },
