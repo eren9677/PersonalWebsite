@@ -1,12 +1,9 @@
 
 const skillsData = [
-  'Flutter',
-  'Dart',
-  'Firebase',
+  'Swift',
   'C',
   'C++',
   'C#',
-  '.net framework',
   'HTML',
   'CSS',
   'Bootstrap',
@@ -14,11 +11,10 @@ const skillsData = [
   'Git',
   'MySql',
   'Python',
-  'Django',
   'docker',
   'Php',
-  'Shell',
   'PostgreSQL',
+  'Pytorch'
 ]
 
 export { skillsData };

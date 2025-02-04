@@ -1,20 +1,18 @@
-import ft from '../assets/career/ecole42.png';
-import dpu from '../assets/career/dpu.png';
+import mu from '../assets/career/maltepeuni.png';
 
 const education = [
     {
-        school: "Ecole42",
-        image:ft,
-        department: "Yazılım Geliştirme",
-        date: "2022 - 2024",
-        desc: "C ile başladığım eğitimimde projeler geliştirdim ve C++ ile projelere devam ettim. Şuan Ekip projemiz olan 'çok oyunculu ping-pong websitesi' uygulamasını geliştiriyorum."
-    },
-    {
-        school: "Dumlupınar Üniversitesi",
-        image:dpu,
-        department: "Bilgisayar Programcılığı",
-        date: "2020 - 2023",
-        desc: "C# kursu aldım ve bu kurs sayesinde yazılım geliştirme konusunda kendimi geliştirdim. 'Kütüphane Otomasyon' uygulamasını bu kurstan öğrendiklerim ile geliştirdim."
+        school: "Maltepe University",
+        image:mu,
+        department: "Computer Engineering",
+        date: "2021 - 2025",
+        desc: `
+        Practiced hypothesis tests and object orientation data through programming examples and labs. Relevant
+coursework: Java Programming, ANN, Data Structures, Applied Statistics, Database Management
+Systems. Built a complete e-commerce site with PHP with XAMPP using Tailwind including the admin
+panel as a course project. Learned to use Wireshark for package inspection in computer networks lecture.
+Currently conducting a research on ML for graduation.
+        `
     },
   ]
 

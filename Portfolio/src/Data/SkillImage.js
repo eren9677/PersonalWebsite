@@ -75,7 +75,7 @@ import wordpress from '../assets/skills/wordpress.svg';
 import netframework from '../assets/skills/netframework.png';
 import shell from '../assets/skills/shell.png';
 import game from '../assets/skills/game.png';
-
+import pytorch from '../assets/skills/pytorch-icon.svg'
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
@@ -233,6 +233,8 @@ export const skillsImage = (skill) => {
         return wolframalpha;
       case 'wordpress':
         return wordpress;
+      case 'pytorch':
+        return pytorch;
       default:
         break;
     }

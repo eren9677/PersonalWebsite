@@ -20,7 +20,7 @@ function About() {
         ))}
       </section>
       <section className="service">
-        <h3 className="h3 service-title">Neler Yapıyorum?</h3>
+        <h3 className="h3 service-title">What do i do?</h3>
         <ul className="service-list">
           {service.map((item, index) => (
             <Service key={index} item={item} />
@@ -28,7 +28,7 @@ function About() {
         </ul>
       </section>
       <section className="skill">
-        <h3 className="h3 skills-title">Yetenekler</h3>
+        <h3 className="h3 skills-title">Skills</h3>
         <div>
           <SkillsCarousel />
         </div>

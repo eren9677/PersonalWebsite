@@ -1,21 +1,18 @@
-import badi from '../assets/career/badi.png';
+import etruscai from '../assets/career/etruscai.png';
 
 const experience = [
     {
-      title: 'Badi Etkinlik',
-      image: badi,
-      position: 'Veri Analisti',
-      year: '2023 Eylül - Halen',
+      title: 'Etruscai',
+      image: etruscai,
+      position: 'ML R&D Intern',
+      year: 'May - Aug 2023',
       description:
-        'Yapılan etkinlik verilerinin işlenmesi ve düzenlenmesi ile ilgileniyorum. Etkinlik katılımlarından alınan dönüşleri analiz edip bunlara uygun etkinliklerin yapılmasını planlıyorum. Website ve uygulamaların geliştirilmesi konularında destek sağlayıp kendimi geliştiriyorum.'
-    },
-    {
-      title: 'FLO Mağazacılık',
-      image: badi,
-      position: 'Intern',
-      year: '2023 Ağustos - 2023 Eylül',
-      description:
-        'Yaptığım stajda şirketin farklı departmanları ile toplantılara girip departmanların işleyişi, birbirleri ile olan ilişkileri hakkında bilgi sahibi oldum.'
+        `
+        Collaborated in a team to design and experiment on model improvement techniques. Applied principal
+component analysis (PCA) to improve regression model’s accuracy by 4%.(Sklearn, Python, Scipy).
+Applied the pmdarima, prophet and tensorflow libraries to perform exploratory data analysis (EDA) on time
+series data. Authored technical reports for improved ML models (Matplotlib, Excel, LaTeX).
+        `
     }
   ]
 
