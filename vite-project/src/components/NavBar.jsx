@@ -10,7 +10,7 @@ function Navbar({ setActiveComponent, activeComponent }) {
             className={`navbar-link ${activeComponent === "about" ? "active" : ""}`}
             onClick={() => setActiveComponent("about")}
           >
-            Hakkımda
+            About
           </button>
         </li>
         <li className="navbar-item">
@@ -18,7 +18,7 @@ function Navbar({ setActiveComponent, activeComponent }) {
             className={`navbar-link ${activeComponent === "resume" ? "active" : ""}`}
             onClick={() => setActiveComponent("resume")}
           >
-            Kariyer
+            Career
           </button>
         </li>
         <li className="navbar-item">
@@ -26,7 +26,7 @@ function Navbar({ setActiveComponent, activeComponent }) {
             className={`navbar-link ${activeComponent === "certificate" ? "active" : ""}`}
             onClick={() => setActiveComponent("certificate")}
           >
-            Sertifikalar
+            Certificates
           </button>
         </li>
         <li className="navbar-item">
@@ -34,7 +34,7 @@ function Navbar({ setActiveComponent, activeComponent }) {
             className={`navbar-link ${activeComponent === "project" ? "active" : ""}`}
             onClick={() => setActiveComponent("project")}
           >
-            Projeler
+            Projects
           </button>
         </li>
         {/* <li className="navbar-item">
