@@ -5,14 +5,14 @@ import { GiPistolGun  } from "react-icons/gi";
 
 const contact = [
     {
-      title: 'Doğum Tarihi',
-      value: '2 Kasım 2001',
-      dateTime: '2001-11-02',
+      title: 'Birth Date',
+      value: '2 Haziran 2002',
+      dateTime: '2002-06-01',
       icon: <FaCalendar  size={25}/>
     },
     {
-      title: 'Adres',
-      value: 'Gaziosmanpasa, Istanbul',
+      title: 'Address',
+      value: 'Cekmekoy, Istanbul',
       icon: <MdLocationOn size={25}/>
     },
     {
