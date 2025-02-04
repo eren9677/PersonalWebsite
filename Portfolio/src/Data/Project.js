@@ -1,104 +1,92 @@
-import Minishell from '../assets/images/projects/minishell.png';
-import Library from '../assets/images/projects/kihmed.png';
-import Cub3d from '../assets/images/projects/cub3d.png';
-import Solong from '../assets/images/projects/solong.png';
-
+import obesity from '../assets/images/projects/obesity.png';
+import mushroom from '../assets/images/projects/Mushroom.png';
+import ecom from '../assets/images/projects/e-commerce.png';
 const project = [
   {
-    name: 'Ping Pong Game',
-    photo: Minishell,
-    category: 'python',
-    text: 'Okulumun son projesi olarak yaptığım bu projede Python ve Django kullanarak bir web tabanlı ping-pong oyunu geliştirdim. Bu proje, kullanıcıların ister normal şekilde kayıt olup ya da 42API ile giriş yaparak birbirleriyle ping-pong ve taş-kağıt-makas oynayabileceği ve arkadaşlık ilişkileri kurabileceği bir platform sundum. Yapay zekaya karşı oynanan oyunlarda istatistik tutularak kullanıcıların oyun geçmişi ve oyun istatistiklerine grafiksel olarak yer verildi. ',
-    tech: ['python', 'django', 'bootstrap', 'html', 'css', 'javascript', 'postgresql', 'docker'],
-    property: [ 'Giriş & Kayıt: Giriş ve kayıt olma yönetimi ve 42API ile entegrasyon',
-      'Profil Yönetimi: Kullanıcı profili oluşturma, güncelleme işlemleri',
-      'Oyun Oynama: Ping-Pong ve klasik taş-kâğıt-makas oyununun Matrix temalı versiyonu',
-      'Arkadaşlık Sistemi: Başka oyuncuları takip edip detaylı istatistiklerini görme',
-      'Oyuncu Arama: Kullanıcı adı, email ya da adla oyuncu arama ve takip etme',
-      'Tasarım: Bootstrap ve CSS ile modern ve kullanıcı dostu UI/UX tasarımı',
-      'SPA yapı: Vanilla JavaScript ile sağlanan SPA yapı ile daha hızlı bir kullanıcı deneyimi',
+    name: 'Obesity Analysis via Synthetic Data Augmentation & Mobile Integration ',
+    photo: obesity,
+    category: 'swift',
+    text:  `Built this project as i was learning more about synthetic data generation.
+    Analyzed obesity status based on individuals' social and physical activities. The dataset was augmented
+using CTGAN via YData to handle data scarcity. Developed a mobile app using SwiftUI and Core ML for on
+device machine learning. Practiced data augmentation and mobile development with Core ML integration.
+     `,
+    tech: ['python', 'coreml', 'swift'],
+    property: [ "Users of this application can see their obesity status based on their physical/social activities. This ML model is trained on a data of 1610 individuals' questionnaire answers. At the end of the form, program categorizes user into one of the 4 categories of : Obese, Overweight, Normal, Underweight. "
     ],
-    date: '2024 Aralık',
-    link: 'https://github.com/erenakbas57/ft_transcendence',
-    learn: [ 'Web tabanlı uygulama geliştirme süreçlerinde ileri düzeyde bilgi ve tecrübe', 
-      'Django ve Django REST Framework kullanarak web uygulamaları geliştirme', 
-      'Docker ve Postgresql kullanarak uygulama dağıtımı ve veritabanı yönetimi', 
-      'Frontend ve Backend teknolojileri ile entegrasyon ve veri akışı yönetimi',
-      'Kullanıcı deneyimi (UX) ve kullanıcı arayüzü (UI) tasarımı konularında pratik deneyim',
-      'Vanilla JavaScript ile SPA yapıları geliştirme ve uygulama performansını arttırma']
+    date: '2025 Jan',
+    link: 'https://github.com/eren9677/Learning-swift/tree/main/ObesityCheck/ObesityCheck',
+    learn: [ "Synthetic Data Generation with CTGAN", 
+      'Mobile Application Development with Swift & SwiftUI', 
+      'CoreML integration in mobile apps', 
+      'UI/UX design for forms',
+      'Custom Views and View Modifiers',]
   },
     {
-      name: 'MiniShell',
-      photo: Minishell,
-      category: 'C',
-      text: 'MiniShell, temel bash kabuğu komutlarını C dilinde yeniden uygulayan bir komut satırı arayüzüdür. Bu proje, Unix tabanlı işletim sistemlerinde kullanılan shell (kabuk) programlarının çalışma prensiplerini anlamak ve uygulamalı deneyim kazanmak amacıyla geliştirilmiştir.',
-      tech: ['C', 'Shell'],
-      property: ['Temel dosya ve dizin işlemleri (cd, ls, pwd, mkdir, rmdir, touch, rm vb.)',
-        'Çocuk süreçlerin oluşturulması ve yönetimi (fork ve exec ile)',
-        'Girdi ve çıktı yönlendirme (redirection)',
-        'Komut zincirleme ve arka planda çalıştırma (pipe ve background execution)'
+      name: 'Mushroom Edibility Prediction',
+      photo: mushroom,
+      category: 'Python',
+      text: `
+      Implemented a 3-layer MLP using PyTorch to classify mushrooms as edible or poisonous with the UCI
+Mushroom Dataset. Integrated batch normalization and ReLU activations.
+      
+      `,
+      tech: ['Pytorch', 'python'],
+      property: ['Used Pytorch to build MLP model',
+        "Applied randomized batch normalization to prevent covariate shift while training in batches.",
+        "Adam optimizer is used for scalability.",
+        "ReLU is used between the hidden layers and Sigmoid is used for final layer.",
       ],
-      date: '2023 Kasım',
-      link: 'https://github.com/erenakbas57/Minishell',
-      learn: [ 'Sistem programlamada ileri düzeyde bilgi ve tecrübe', 
-        'Süreç yönetimi, bellek yönetimi ve dosya sistemi işlemleri konularında pratik deneyim', 
-        'Hata ayıklama ve performans optimizasyonu yeteneklerinin geliştirilmesi']
+      date: '2024 Dec',
+      link: 'https://github.com/eren9677/CEN-451/tree/main',
+      learn: [ 'Learned to create dataloaders for MLP model.', 
+        'Learned to select the optimal batch size and neuron numbers', 
+        'Tried multiple times to find the best hyperparameter. this includes using different activation functions to batch size, network depth, normalization techniques. regularization techniques']
     },
     {
-      name: 'Library Management System',
-      photo: Library,
-      category: 'C#',
-      text: 'C# dilinde geliştirilen bu proje, kapsamlı bir kütüphane ve market yönetim sistemidir. Proje, kütüphane işlemleri, üyelik yönetimi ve market satışlarının entegre bir şekilde yönetilmesini sağlar. Kullanıcı dostu arayüzü ile kullanıcıların ihtiyaçlarına yönelik kapsamlı çözümler sunar.',
-      tech: ['C#', '.Net Framework', 'MySql'],
-      property: ['Üyelik Sistemi: Üye ekleme, çıkarma, güncelleme ve silme işlemleri',
-        'Kütüphane Yönetimi: Kitap rafları ekleme, kitap ekleme, güncelleme ve silme işlemleri',
-        'Ödünç Alma Sistemi: Kitapların ödünç alınması ve iade edilmesi süreçleri',
-        'Market Yönetimi: Çay, kahve gibi ürünlerin stok takibi ve satış işlemleri',
-        'Satış İstatistikleri: Aylık ve günlük satış istatistiklerinin filtrelenmesi ve görüntülenmesi',
-        'Veri Filtreleme: İstenilen tarih aralıklarında satışların filtrelenmesi ve analiz edilmesi'
+      name: 'E-commerce Website',
+      photo: ecom,
+      category: 'php',
+      text: `
+      Created an e-commerce project using php for my univeristy lecture. This includes a user interface and an admin panel for store management.
+      I've used Bootstrap modules and XAMPP for web hosting with MYSQL database. Check my GitHub for a detalied video introduction.
+      `,
+      tech: ['php','Bootstrap','javascript','html','mysql'],
+      property: ['Admin panel has multiple functionalities such as adding a new admin, deleting one and password management.',
+        'Admins can add/update/delete products and categories. ',
+        'Users can see the stock of a product in real time',
+        'Admins has a nice order management list as they wish to delete an order if they complete it.'
       ],
-      date: '2023 Kasım',
-      link: 'https://github.com/erenakbas57/LibraryManagementApp',
-      learn: [ 'Veritabanı yönetimi ve SQL sorgulama konularında ileri düzeyde bilgi ve tecrübe', 
-        'Nesne yönelimli programlama (OOP) prensiplerinin etkin kullanımı', 
-        'Entity Framework ve LINQ teknolojilerinin kullanımı ve veri tabanı işlemlerinde pratik deneyim']
+      date: '2024 May',
+      link: 'https://github.com/eren9677/E-COM?tab=readme-ov-file',
+      learn: [ 'Learned to create dataloaders for MLP model.', 
+        'Learned to properly manage a Database system', 
+        'Dynamically updating using Globals and GET/SET operations via PHP',
+        'How to build a clean UI to improve user experience',
+        'Learned to use CDNs.',
+        'Updating client-side interface with javascript.'
+  ]
     },
     {
-      name: 'Cub3d',
-      photo: Cub3d,
-      category: 'C',
-      text: 'Cub3d, C dilinde yazılmış ve MiniLibX kütüphanesi kullanılarak raycasting yöntemiyle görüntü işleme yapılan bir projedir. Bu proje, klasik Wolfenstein 3D oyununun bir benzerini oluşturmayı amaçlamaktadır. Oyuncuların 3D bir ortamda gezinmelerini ve etkileşimde bulunmalarını sağlar.',
-      tech: ['C', 'Game'],
-      property: ['Raycasting Görüntü İşleme: 2D haritayı kullanarak 3D perspektif ile görüntü oluşturma',
-        'MiniLibX Kütüphanesi Kullanımı: Grafik ve pencere yönetimi için MiniLibX kütüphanesinin entegrasyonu',
-        'Oyun Mekanikleri: Oyuncu hareketi, çarpışma algılama ve basit etkileşimler',
-        'Doku (Texture) Yönetimi: Duvar ve zemin gibi yüzeylerin dokularının işlenmesi',
-        'Performans Optimizasyonu: Verimli raycasting algoritması ile gerçek zamanlı görüntü işleme'
+      name: 'Guess Flags',
+      photo: mushroom,
+      category: 'Python',
+      text: `
+      Implemented a 3-layer MLP using PyTorch to classify mushrooms as edible or poisonous with the UCI
+Mushroom Dataset. Integrated batch normalization and ReLU activations.
+      
+      `,
+      tech: ['Swift'],
+      property: ['Used Pytorch to build MLP model',
+        "Applied randomized batch normalization to prevent covariate shift while training in batches.",
+        "Adam optimizer is used for scalability.",
+        "ReLU is used between the hidden layers and Sigmoid is used for final layer.",
       ],
-      date: '2023 Kasım',
-      link: 'https://github.com/erenakbas57/cub3d',
-      learn: [ '2D ve 3D matematiksel kavramların uygulamalı kullanımı', 
-        'Oyun geliştirme süreçlerinde kullanılan temel algoritmalar ve veri yapıları hakkında derinlemesine anlayış', 
-        'Grafik programlama ve görüntü işleme teknikleri konusunda ileri düzey bilgi ve deneyim']
-    },
-    {
-      name: 'SoLong',
-      photo: Solong,
-      category: 'C',
-      text: 'C dilinde yazdığım bu projede MiniLibX kütüphanesini kullanarak basit bir 2D oyun geliştirdim. Pacman benzeri bu oyunda verilen harita dosyasını okuduktan sonra çeşitli algoritmalar geliştirerek harita kontrolleri sağladım. MiniLibX kütüphanesi ile görsellerin işlenmesi ve pencere yönetimini sağladım',
-      tech: ['C', 'Game'],
-      property: ['Harita Okuma: Verilen harita dosyasını okuyarak oyun alanını oluşturma',
-        'Oyuncu Kontrolleri: Oyuncunun hareketini sağlayan kontrollerin geliştirilmesi',
-        'Harita Kontrolleri: Duvarlar, kapılar ve objelerin çarpışma kontrollerinin yapılması',
-        'Grafik İşleme: MiniLibX kütüphanesi ile görsellerin işlenmesi ve pencere yönetimi',
-      ],
-      date: '2023 Kasım',
-      link: 'https://github.com/erenakbas57/so_long',
-      learn: [
-        'Harita kontrollerini sağlamak için algoritma geliştirme ve uygulama yeteneklerinin geliştirilmesi',
-        'Grafik programlama ve görüntü işleme teknikleri konusunda bilgi ve deneyim',
-        'Performans optimizasyonu ve hata ayıklama yeteneklerinin geliştirilmesi',        
-      ]
+      date: '2024 Dec',
+      link: 'https://github.com/eren9677/CEN-451/tree/main',
+      learn: [ 'Learned to create dataloaders for MLP model.', 
+        'Learned to select the optimal batch size and neuron numbers', 
+        'Tried multiple times to find the best hyperparameter. this includes using different activation functions to batch size, network depth, normalization techniques. regularization techniques']
     },
 
   ]

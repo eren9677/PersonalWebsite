@@ -28,14 +28,14 @@ function Modal({ active, data, onClose }) {
             <p className="project-text">{data.text}</p>
             <h2 className="detail-title">
               <FaArrowAltCircleRight/>
-              <p>İçerik</p>
+              <p>Contents</p>
             </h2>
             {data.property.map((item, index) => (
               <p className="project-property" key={index}>🟦 {item}</p>
             ))}
             <h2 className="detail-title">
               <FaArrowAltCircleRight/>
-              <p>Kazanımlar</p>
+              <p>Learned About</p>
             </h2>
             {data.learn.map((item, index) => (
               <p className="project-learn" key={index}>🟩 {item}</p>
@@ -49,7 +49,7 @@ function Modal({ active, data, onClose }) {
               className="github-button"
             >
               <GrGithub size={25} />
-              GitHub'da Görüntüle
+              See on GitHub
             </a>
           </div>
         </div>

@@ -11,9 +11,14 @@ import duke_stat from '../assets/images/certificates/StaticticsDuke.png';
 import feat_eng from '../assets/images/certificates/FeatureEngineering.png';
 import da_duke from  '../assets/images/certificates/DataAnalysisDuke.png';
 import spark from '../assets/images/certificates/Spark.png';
-
+import participation from '../assets/images/certificates/Participation.png';
 
 const certificate = [
+    {
+        photo: participation,
+        name: "AI in Nutrition & Dietetics",
+        category: "AI"
+    },
     {
         photo: spark,
         name: "Apache Spark Fundementals",
@@ -23,11 +28,6 @@ const certificate = [
         photo: da_duke,
         name: "Duke University Data Analysis with R",
         category: "Data Science"
-    },
-    {
-        photo: feat_eng,
-        name: "Feature Engineering",
-        category: "AI"
     },
     {
         photo: feat_eng,

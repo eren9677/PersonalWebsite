@@ -19,7 +19,7 @@ function Contact({Profile, toggleSidebar}) {
           <p className="title">{Profile.title}</p>
         </div>
         <button className="info_more-btn" data-sidebar-btn="" onClick={toggleSidebar}>
-        <span>Kişisel Bilgiler</span>
+        <span>Personal Information</span>
         <MdMoreHoriz className='icon' size={20}/>
         </button>
       </div>
