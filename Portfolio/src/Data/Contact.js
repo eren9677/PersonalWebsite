@@ -5,7 +5,7 @@ import { GiPistolGun  } from "react-icons/gi";
 
 const contact = [
     {
-      title: 'Birth Date',
+      title: 'Bırth Date',
       value: '2 Haziran 2002',
       dateTime: '2002-06-01',
       icon: <FaCalendar  size={25}/>
