@@ -1,4 +1,4 @@
-import ft from '../assets/career/ecole42.png';
+import ft from '../assets/career/etruscai.png';
 
 const volunteering = [
     {

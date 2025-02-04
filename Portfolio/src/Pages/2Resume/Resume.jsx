@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Experience from "./1Experience";
 import Education from "./1Education";
-import Volunteering from "./1.Volunteering";
+//import Volunteering from "./1.Volunteering";
 import "./resume.css";
 
 import { FaGraduationCap } from "react-icons/fa6";
-import { MdWork, MdVolunteerActivism } from "react-icons/md";
+//import { MdWork, MdVolunteerActivism } from "react-icons/md";
 
 
 import education from "../../Data/Education";
@@ -36,9 +36,9 @@ function Resume() {
       </header>
       <section className="timeline">
         <div className="title-wrapper" onClick={toggleExperience}>
-          <div className="icon-box">
+          {/* <div className="icon-box">
             <MdWork size={24} />
-          </div>
+          </div> */}
           <h3 className="h3">Experience</h3>
         </div>
         <ol className={`timeline-list exp ${isExperienceOpen ? 'open' : ''}`}>
