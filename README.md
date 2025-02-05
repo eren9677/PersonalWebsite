@@ -5,8 +5,8 @@
 <br>
 
 ```
-git clone https://github.com/<your-username>/Portfolio.git
-cd Portfolio
+git clone https://github.com/<your-username>/PersonalWebsite.git
+cd PersonalWebsite
 npm i
 npm start
 ```
