@@ -1,6 +1,8 @@
 <h1 align="left" id="title">Portfolio Website</h1>
 <br>
-<p>This repository holds my personal website's source code. In the main branch, It is used to edit the information. gh-pages branch holds the static website information.</p>
+<p>This repository holds my personal website's source code. In the main branch, It is used to edit the information. gh-pages branch holds the static website information.
+<a href="https://eren9677.github.io/PersonalWebsite/"> Here is the link to my Website.</a>
+</p>
 <h2>🛠️ Installation Steps:</h2>
 <br>
 
