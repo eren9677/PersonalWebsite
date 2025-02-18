@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.6f56a1f0.css",
-    "main.js": "/PersonalWebsite/static/js/main.3323242f.js",
+    "main.js": "/PersonalWebsite/static/js/main.56b8233e.js",
     "static/media/Participation.png": "/PersonalWebsite/static/media/Participation.267b8ae5e3a280de2f25.png",
     "static/media/IntroductionToDataScienceInPython.png": "/PersonalWebsite/static/media/IntroductionToDataScienceInPython.ff72d95713f0a2043f3c.png",
     "static/media/DataAnalysisDuke.png": "/PersonalWebsite/static/media/DataAnalysisDuke.713e60f5e2ca96805357.png",
@@ -21,6 +21,7 @@
     "static/media/Mushroom.png": "/PersonalWebsite/static/media/Mushroom.b575eef59931a4effc62.png",
     "static/media/shell.png": "/PersonalWebsite/static/media/shell.28cb33d7659f79f26514.png",
     "static/media/netframework.png": "/PersonalWebsite/static/media/netframework.2d320e2e5e29f6844d29.png",
+    "static/media/QrGenerate.png": "/PersonalWebsite/static/media/QrGenerate.049074df0633ae3d6f18.png",
     "static/media/coreml.png": "/PersonalWebsite/static/media/coreml.52ecb98d0210a2e36205.png",
     "static/media/eren.png": "/PersonalWebsite/static/media/eren.afa8752c9ce6303cf238.png",
     "static/media/game.png": "/PersonalWebsite/static/media/game.c459b79afba3e59d0ecd.png",
@@ -103,10 +104,10 @@
     "static/media/vuetifyjs.svg": "/PersonalWebsite/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/PersonalWebsite/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.6f56a1f0.css.map": "/PersonalWebsite/static/css/main.6f56a1f0.css.map",
-    "main.3323242f.js.map": "/PersonalWebsite/static/js/main.3323242f.js.map"
+    "main.56b8233e.js.map": "/PersonalWebsite/static/js/main.56b8233e.js.map"
   },
   "entrypoints": [
     "static/css/main.6f56a1f0.css",
-    "static/js/main.3323242f.js"
+    "static/js/main.56b8233e.js"
   ]
 }
