@@ -2,7 +2,25 @@ import obesity from '../assets/images/projects/obesity.png';
 import mushroom from '../assets/images/projects/Mushroom.png';
 import ecom from '../assets/images/projects/e-commerce.png';
 import guessflags from '../assets/images/projects/flag.png';
+import qrgenerate from '../assets/images/projects/QrGenerate.png';
 const project = [
+  {
+    name: 'QrGenerate: QR Code Generator and manager',
+    photo: qrgenerate,
+    category: 'react',
+    text:  `QrGenerate enables users to style their generated Qr codes, save them and manage them for later. This project was a good practice of using RESTFUL Apis and connecting them in a dockerized network. Implemented with MySQL for storage and deployed with vitejs for faster deployments. For authetntication this app uses a secure JWT token. 
+     `,
+    tech: ['python', 'react', 'vitejs','mysql','docker','html'],
+    property: [ "User can authenticate this application by creating account using their emails. Users of this application can effectively create custom QR codes with styling options, save their designs, and manage their collection through a clean interface. They also can download the generated qr image for usage. Users can create qr from a simple text or an URL.",
+    ],
+    date: '2025 Feb',
+    link: 'https://github.com/eren9677/QrGenerate',
+    learn: [ "User authentication with JWT", 
+      'Creating RESTful APIs with FastAPi', 
+      'Dockerizing a React app', 
+      'Using ViteJS for faster development',
+      'Using JWT for authentication.',]
+  },
   {
     name: 'Obesity Analysis via Synthetic Data Augmentation & Mobile Integration ',
     photo: obesity,
