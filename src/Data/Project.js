@@ -3,7 +3,7 @@ import mushroom from '../assets/images/projects/Mushroom.png';
 import ecom from '../assets/images/projects/e-commerce.png';
 import guessflags from '../assets/images/projects/flag.png';
 import qrgenerate from '../assets/images/projects/QrGenerate.png';
-import anomaly from '../assets/images/projects/QrGenerate.png';
+import anomaly from '../assets/images/projects/anomaly.png';
 const project = [
   {
     name: 'Network Anomaly Detection',
