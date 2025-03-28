@@ -15,7 +15,7 @@ const project = [
     property: [ "Users can capture their own NEtwork packets and capture and exctract the related features. LAter, these data can be used with a ML model to detect the anormal network traffic to flag the threads.",
     ],
     date: '2025 Feb',
-    link: 'https://github.com/eren9677/QrGenerate',
+    link: 'https://github.com/eren9677/Network-Anomaly-Detection',
     learn: [ "Anomaly Detection in imbalanced Dataset", 
       'Using bash to create scripts', 
       'using nmap and curl to create anomalies', 
