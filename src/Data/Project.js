@@ -3,7 +3,25 @@ import mushroom from '../assets/images/projects/Mushroom.png';
 import ecom from '../assets/images/projects/e-commerce.png';
 import guessflags from '../assets/images/projects/flag.png';
 import qrgenerate from '../assets/images/projects/QrGenerate.png';
+import anomaly from '../assets/images/projects/QrGenerate.png';
 const project = [
+  {
+    name: 'Network Anomaly Detection',
+    photo: anomaly,
+    category: 'react',
+    text:  `A network anomaly detection project that uses Wireshark (tshark) for packet capture and machine learning techniques to identify abnormal network traffic patterns. The project involves gathering network data, processing packet information, and applying anomaly detection to classify and flag potential security threats with Pytorch.
+     `,
+    tech: ['python', 'pytorch', 'shell','numpy'],
+    property: [ "Users can capture their own NEtwork packets and capture and exctract the related features. LAter, these data can be used with a ML model to detect the anormal network traffic to flag the threads.",
+    ],
+    date: '2025 Feb',
+    link: 'https://github.com/eren9677/QrGenerate',
+    learn: [ "Anomaly Detection in imbalanced Dataset", 
+      'Using bash to create scripts', 
+      'using nmap and curl to create anomalies', 
+      'Fast pytorch implementation',
+      'Using Wireshark CLI',]
+  },
   {
     name: 'QrGenerate: QR Code Generator and manager',
     photo: qrgenerate,
