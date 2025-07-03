@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.bd986ebf.css",
-    "main.js": "/PersonalWebsite/static/js/main.c749207f.js",
+    "main.js": "/PersonalWebsite/static/js/main.bb1dd3b5.js",
     "static/media/Participation.png": "/PersonalWebsite/static/media/Participation.267b8ae5e3a280de2f25.png",
     "static/media/IntroductionToDataScienceInPython.png": "/PersonalWebsite/static/media/IntroductionToDataScienceInPython.ff72d95713f0a2043f3c.png",
     "static/media/DataAnalysisDuke.png": "/PersonalWebsite/static/media/DataAnalysisDuke.713e60f5e2ca96805357.png",
@@ -29,6 +29,7 @@
     "static/media/game.png": "/PersonalWebsite/static/media/game.c459b79afba3e59d0ecd.png",
     "static/media/Linkedin.png": "/PersonalWebsite/static/media/Linkedin.c0a82b96c88307e19fd1.png",
     "static/media/etruscai.png": "/PersonalWebsite/static/media/etruscai.8f80f17ae952045abfd3.png",
+    "static/media/researcher.png": "/PersonalWebsite/static/media/researcher.d1bb54995d550e51ffbc.png",
     "static/media/deno.svg": "/PersonalWebsite/static/media/deno.96d4a63dc8a39aad6c76b5fb9e7afae8.svg",
     "static/media/postgresql.svg": "/PersonalWebsite/static/media/postgresql.c0d71b7cf608d9c6aa8676fee6925850.svg",
     "static/media/ruby.svg": "/PersonalWebsite/static/media/ruby.34e792ab70448eb69573a8b2df207f74.svg",
@@ -106,10 +107,10 @@
     "static/media/vuetifyjs.svg": "/PersonalWebsite/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/PersonalWebsite/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.bd986ebf.css.map": "/PersonalWebsite/static/css/main.bd986ebf.css.map",
-    "main.c749207f.js.map": "/PersonalWebsite/static/js/main.c749207f.js.map"
+    "main.bb1dd3b5.js.map": "/PersonalWebsite/static/js/main.bb1dd3b5.js.map"
   },
   "entrypoints": [
     "static/css/main.bd986ebf.css",
-    "static/js/main.c749207f.js"
+    "static/js/main.bb1dd3b5.js"
   ]
 }
