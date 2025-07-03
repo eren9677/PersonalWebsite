@@ -26,7 +26,7 @@ machine learning frameworks throughout the research process.`,
       title: 'Teknoloji Liderleri',
       image: teknolojiliderleri,
       position: 'Volunteer Engineer',
-      year: 'jul - Aug 2024',
+      year: 'Jul - Aug 2024',
       descriptions:
         [
 `• Assisted with special events and programs. `,

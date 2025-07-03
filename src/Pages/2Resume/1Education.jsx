@@ -11,7 +11,14 @@ function Education({ item }) {
           <span>{item.date}</span>
         </div>
       </div>
-      <p className="timeline-text">{item.desc}</p>
+      
+      {/* Render multiple descriptions */}
+      <div className="timeline-descriptions">
+        {item.descs.map((description, index) => (
+          <p key={index} className="timeline-text">{description}</p>
+        ))}
+      </div>
+      
       <div className="spacer"></div>
     </div>
   );
