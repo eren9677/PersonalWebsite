@@ -4,9 +4,9 @@ import maltepe from '../assets/career/maltepeuni.png';
 const experience = [
 
     {
-      title: 'Maltepe University',
+      title: 'Undergraduate Researcher',
       image: maltepe,
-      position: 'Undergraduate Researcher',
+      position: 'Maltepe University',
       year: 'Sep 2024 - Jun 2025',
       descriptions: [
         `• Conducted machine learning research on obesity prediction using artificial intelligence techniques
@@ -23,9 +23,9 @@ machine learning frameworks throughout the research process.`,
     },
   
     {
-      title: 'Teknoloji Liderleri',
+      title: 'Volunteer Engineer',
       image: teknolojiliderleri,
-      position: 'Volunteer Engineer',
+      position: 'Teknoloji Liderleri',
       year: 'Jul - Aug 2024',
       descriptions:
         [
@@ -44,9 +44,9 @@ projects.`
 ]
     },
     {
-      title: 'Etruscai',
+      title: 'ML R&D Intern',
       image: etruscai,
-      position: 'ML R&D Intern',
+      position: 'Etruscai',
       year: 'May - Aug 2023',
       descriptions: [
                 `• Collaborated in a team to design and experiment on model improvement techniques.`,
