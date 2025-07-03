@@ -3,7 +3,7 @@ import photo from '../assets/images/eren.png';
 const Profile = {
     name: 'Eren',
     surname: 'KIZILIRMAK',
-    title: 'Developer',
+    title: 'Computer Engineer | Researcher',
     image: photo,
 
 }
