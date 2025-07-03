@@ -1,11 +1,12 @@
 import etruscai from '../assets/career/etruscai.png';
 import teknolojiliderleri from '../assets/career/teknoloji_liderleri.png';
 import maltepe from '../assets/career/maltepeuni.png';
+import researcher from '../assets/career/researcher.png';
 const experience = [
 
     {
       title: 'Undergraduate Researcher',
-      image: maltepe,
+      image: researcher,
       position: 'Maltepe University',
       year: 'Sep 2024 - Jun 2025',
       descriptions: [
