@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.6f56a1f0.css",
-    "main.js": "/PersonalWebsite/static/js/main.44444f52.js",
+    "main.css": "/PersonalWebsite/static/css/main.bd986ebf.css",
+    "main.js": "/PersonalWebsite/static/js/main.9c60a0aa.js",
     "static/media/Participation.png": "/PersonalWebsite/static/media/Participation.267b8ae5e3a280de2f25.png",
     "static/media/IntroductionToDataScienceInPython.png": "/PersonalWebsite/static/media/IntroductionToDataScienceInPython.ff72d95713f0a2043f3c.png",
     "static/media/DataAnalysisDuke.png": "/PersonalWebsite/static/media/DataAnalysisDuke.713e60f5e2ca96805357.png",
@@ -105,11 +105,11 @@
     "static/media/pytorch-icon.svg": "/PersonalWebsite/static/media/pytorch-icon.8653d1d6d7ba93c4c4ed583bbd51fb99.svg",
     "static/media/vuetifyjs.svg": "/PersonalWebsite/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/PersonalWebsite/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
-    "main.6f56a1f0.css.map": "/PersonalWebsite/static/css/main.6f56a1f0.css.map",
-    "main.44444f52.js.map": "/PersonalWebsite/static/js/main.44444f52.js.map"
+    "main.bd986ebf.css.map": "/PersonalWebsite/static/css/main.bd986ebf.css.map",
+    "main.9c60a0aa.js.map": "/PersonalWebsite/static/js/main.9c60a0aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f56a1f0.css",
-    "static/js/main.44444f52.js"
+    "static/css/main.bd986ebf.css",
+    "static/js/main.9c60a0aa.js"
   ]
 }
