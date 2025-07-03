@@ -36,9 +36,9 @@ function Resume() {
       </header>
       <section className="timeline">
         <div className="title-wrapper" onClick={toggleExperience}>
-          {/* <div className="icon-box">
+          {<div className="icon-box">
             <MdWork size={24} />
-          </div> */}
+          </div> }
           <h3 className="h3">Experience</h3>
         </div>
         <ol className={`timeline-list exp ${isExperienceOpen ? 'open' : ''}`}>
