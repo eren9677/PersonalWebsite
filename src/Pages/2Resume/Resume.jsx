@@ -5,7 +5,7 @@ import Education from "./1Education";
 import "./resume.css";
 
 import { FaGraduationCap } from "react-icons/fa6";
-//import { MdWork, MdVolunteerActivism } from "react-icons/md";
+import { MdWork, MdVolunteerActivism } from "react-icons/md";
 
 
 import education from "../../Data/Education";
