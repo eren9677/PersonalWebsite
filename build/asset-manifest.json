@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.6f56a1f0.css",
-    "main.js": "/PersonalWebsite/static/js/main.280f0721.js",
+    "main.js": "/PersonalWebsite/static/js/main.a2c9bf0d.js",
     "static/media/Participation.png": "/PersonalWebsite/static/media/Participation.267b8ae5e3a280de2f25.png",
     "static/media/IntroductionToDataScienceInPython.png": "/PersonalWebsite/static/media/IntroductionToDataScienceInPython.ff72d95713f0a2043f3c.png",
     "static/media/DataAnalysisDuke.png": "/PersonalWebsite/static/media/DataAnalysisDuke.713e60f5e2ca96805357.png",
@@ -17,6 +17,7 @@
     "static/media/AcceleratedDeeplearningWithGPUs.png": "/PersonalWebsite/static/media/AcceleratedDeeplearningWithGPUs.5d55251106f76031fa8c.png",
     "static/media/Spark.png": "/PersonalWebsite/static/media/Spark.09e195a09d712a6ee351.png",
     "static/media/GitHub.png": "/PersonalWebsite/static/media/GitHub.93cab583945605654f08.png",
+    "static/media/teknoloji_liderleri.png": "/PersonalWebsite/static/media/teknoloji_liderleri.7a8ee9db01a216580eb1.png",
     "static/media/Gmail.png": "/PersonalWebsite/static/media/Gmail.579cd64f6960247ba4df.png",
     "static/media/Medium.png": "/PersonalWebsite/static/media/Medium.4625151931df56986f08.png",
     "static/media/Mushroom.png": "/PersonalWebsite/static/media/Mushroom.b575eef59931a4effc62.png",
@@ -105,10 +106,10 @@
     "static/media/vuetifyjs.svg": "/PersonalWebsite/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/bulma.svg": "/PersonalWebsite/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.6f56a1f0.css.map": "/PersonalWebsite/static/css/main.6f56a1f0.css.map",
-    "main.280f0721.js.map": "/PersonalWebsite/static/js/main.280f0721.js.map"
+    "main.a2c9bf0d.js.map": "/PersonalWebsite/static/js/main.a2c9bf0d.js.map"
   },
   "entrypoints": [
     "static/css/main.6f56a1f0.css",
-    "static/js/main.280f0721.js"
+    "static/js/main.a2c9bf0d.js"
   ]
 }
