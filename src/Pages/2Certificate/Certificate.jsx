@@ -12,7 +12,7 @@ function Certificates() {
       <section className="certificates">
         <ul className="certificate-list">
           {certificate.map((item, index) => (
-            <Certificate item={item}/>
+            <Certificate key={index} item={item}/>
           ))}
         </ul>
       </section>

@@ -52,23 +52,23 @@ function Projects() {
   return (
     <section className="projects">
       <ul className="projects-list">
-        {project.map((project, index) => (
+        {project.map((item, index) => (
           <li
             key={index}
             className="projects-item"
-            onClick={() => openModal(project)}
+            onClick={() => openModal(item)}
           >
               <figure className="projects-avatar-box">
-                {project.tech.map((iconName, index) => (
-                  <img src={skillsImage(iconName)} alt={project} key={index} />
+                {item.tech.map((iconName, iconIndex) => (
+                  <img src={skillsImage(iconName)} alt={iconName} key={iconIndex} />
                 ))}
   {/* {project.tech.map((iconName, index) => (
     <img key={index} src={icons[iconName]} alt={iconName} />
   ))} */}
               </figure>
-              <h4 className="projects-item-title">{project.name}</h4>
+              <h4 className="projects-item-title">{item.name}</h4>
               <div className="projects-text">
-                <p>{project.text}</p>
+                <p>{item.text}</p>
               </div>
               <div className="project-detail-info">
                 <p>Click for detailed information about the project</p>

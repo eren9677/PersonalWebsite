@@ -235,7 +235,7 @@ export const skillsImage = (skill) => {
         return wolframalpha;
       case 'wordpress':
         return wordpress;
-      case 'pytorch':
+      case 'pytorch-icon':
         return pytorchh;
       case 'coreml':
         return coreml;

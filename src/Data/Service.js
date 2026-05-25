@@ -1,7 +1,7 @@
 const service = [
     {
         name: 'Web Development',
-        description: "I've developed a complete e-commerce site with PHP and XAMPP including it's admin panel. Recently, I am learning to improve my React knowledge through examples and rebuilding projects. ",
+        description: "Built full-stack applications with PHP, FastAPI, Flask, and React.js. Experienced with RESTful API development, MySQL/PostgreSQL databases, and containerization with Docker. Proficient in agile workflows using Scrum and Jira.",
         icon: ['Html', 'Bootstrap', 'JavaScript', 'PHP',"react"],
     },
     {
@@ -11,7 +11,7 @@ const service = [
     },
     {
         name: 'Data Science & ML',
-        description: "I continuously learn about ML and try to improve myself by building various projects. Recently, I am conducting a research on Synthetic Data Generation and It's effects on ANNs as a part of my graduation project. Lately, I've built a simple MLP using Pytorch to predict Mushroom edibilty.",
+        description: "I conducted machine learning research on synthetic data augmentation for healthcare applications, published at IEEE Xplore (SIU 2025). Experienced with PyTorch, TensorFlow, PCA-based model optimization, and exploratory data analysis on time series data.",
         icon: ['Python', 'pytorch'],
     }
 ]

@@ -5,21 +5,22 @@ import Education from "./1Education";
 import "./resume.css";
 
 import { FaGraduationCap } from "react-icons/fa6";
-import { MdWork, MdVolunteerActivism } from "react-icons/md";
+import { MdWork } from "react-icons/md";
+// import { MdVolunteerActivism } from "react-icons/md";
 
 
 import education from "../../Data/Education";
 import experience from "../../Data/Experience";
-import volunteering from "../../Data/Volunteering";
+// import volunteering from "../../Data/Volunteering";
 
 function Resume() {
   const [isExperienceOpen, setIsExperienceOpen] = useState(true);
   const [isEducationOpen, setIsEducationOpen] = useState(true);
-  const [isVolunteeringOpen, setIsVolunteeringOpen] = useState(true);
+  // const [isVolunteeringOpen, setIsVolunteeringOpen] = useState(true);
 
-  const toggleVolunteering = () => {
-    setIsVolunteeringOpen(!isVolunteeringOpen);
-  }
+  // const toggleVolunteering = () => {
+  //   setIsVolunteeringOpen(!isVolunteeringOpen);
+  // }
 
   const toggleExperience = () => {
     setIsExperienceOpen(!isExperienceOpen);

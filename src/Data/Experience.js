@@ -1,6 +1,5 @@
 import etruscai from '../assets/career/etruscai.png';
 import teknolojiliderleri from '../assets/career/teknoloji_liderleri.png';
-import maltepe from '../assets/career/maltepeuni.png';
 import researcher from '../assets/career/researcher.png';
 const experience = [
 
@@ -24,10 +23,10 @@ machine learning frameworks throughout the research process.`,
     },
   
     {
-      title: 'Volunteer Engineer',
+      title: 'Volunteer',
       image: teknolojiliderleri,
-      position: 'Teknoloji Liderleri',
-      year: 'Jul - Aug 2024',
+      position: 'Sancaktepe Municipality',
+      year: 'Jul 2024',
       descriptions:
         [
 `• Assisted with special events and programs. `,

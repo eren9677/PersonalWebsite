@@ -1,5 +1,5 @@
 import {  MdLocationOn   } from "react-icons/md";
-import { FaCalendar, FaCarAlt } from "react-icons/fa";
+import { FaCalendar } from "react-icons/fa";
 
 
 const contact = [
@@ -11,7 +11,7 @@ const contact = [
     },
     {
       title: 'Address',
-      value: 'Cekmekoy, Istanbul',
+      value: 'Karlsruhe, Germany',
       icon: <MdLocationOn size={25}/>
     },
 

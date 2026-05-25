@@ -12,6 +12,8 @@ const skillsData = [
   'Php',
   'PostgreSQL',
   'Pytorch',
+  'TensorFlow',
+  'React',
   'Coreml'
 ]
 
