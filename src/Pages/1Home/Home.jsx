@@ -12,13 +12,11 @@ function Home({ setIsSidebarActive }) {
   const [activeComponent, setActiveComponent] = useState("about");
 
   const { setIsEmailFlipped } = useSocialContext();
-  const { setIsPhoneFlipped } = useSocialContext();
 
   useEffect(() => {
     window.scrollTo(0, 0);
     setIsEmailFlipped(false); // activeComponent değişince kartı ön yüze çevir
-    setIsPhoneFlipped(false); // activeComponent değişince kartı ön yüze çevir
-  }, [activeComponent, setIsEmailFlipped, setIsPhoneFlipped]);
+  }, [activeComponent, setIsEmailFlipped]);
 
   const renderComponent = () => {
     switch (activeComponent) {

@@ -7,13 +7,10 @@ import { useSocialContext } from '../../SocialContext';
 function Social({ item, isActive, onClick }) {
   const [copied, setCopied] = useState(false);
   const { isEmailFlipped, setIsEmailFlipped } = useSocialContext();
-  const { isPhoneFlipped, setIsPhoneFlipped } = useSocialContext();
 
   const handleClick = () => {
     if (item.type === 'email') {
       setIsEmailFlipped(!isEmailFlipped);
-    } else if (item.type === 'phone') {
-      setIsPhoneFlipped(!isPhoneFlipped);
     }
   };
 
@@ -25,8 +22,6 @@ function Social({ item, isActive, onClick }) {
           setCopied(false);
           if (item.type === 'email') {
             setIsEmailFlipped(false);
-          } else if (item.type === 'phone') {
-            setIsPhoneFlipped(false);
           }
         }, 1200);
         setCopied(true);
@@ -35,7 +30,7 @@ function Social({ item, isActive, onClick }) {
   };
 
   if (item.type === 'phone' || item.type === 'email') {
-    const isFlipped = item.type === 'phone' ? isPhoneFlipped : isEmailFlipped;
+    const isFlipped = item.type === 'email' ? isEmailFlipped : false;
     return (
       <li className="social-item-h">
         <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleClick}>
